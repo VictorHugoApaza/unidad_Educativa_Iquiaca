@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Unidad Educativa Técnico Humanístico "23 de Marzo de San Martín Iquiaca"
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR RESPONSIVA -->
+    <header>
+      <div class="navbar container">
+        <div class="logo-container">
+          <img src="./img/escudoUnidadEducativaSanMartinIquiaca.jpeg" alt="Logo Unidad" />
+          <div class="logo-text">
+            Unidad Educativa<br />Técnico Humanístico<br />23 de Marzo de San Martín Iquiaca
+          </div>
+        </div>
+
+        <button class="menu-toggle" id="mobileMenuBtn" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sedes">Sedes</a></li>
+          <li><a href="#escuelas">Mallas Curriculares</a></li>
+          <li><a href="#noticias" class="btn-noticias">Noticias</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- SECCIÓN INICIO / HERO -->
+    <section id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <h1 class="hero-title">Unidad Educativa <br>Técnico Humanístico <br> 23 de Marzo de San Martín Iquiaca</h1>
+          <p class="hero-subtitle">
+            Nucleo Educativo San Martin de Iquiaca
+            <figure>
+              <img src="./img/escudoSanMartinIquiaca.jpeg" alt="logo" width="100"></figure>
+          </p>
+        </div>
+        <div class="hero-card">
+          <img src="./img/letreroBienvenida.jpeg" alt="Sede Unap" />
+          <div class="quote-box">
+            <p>
+              "La Unidad Educativa "23 de Marzo" de San Martín Iquiaca, actualmente es la sede del Núcleo Educativo, cuenta con 105 estudiantes, 9 profesores y un Director Titular Institucionalizado."
+            </p>
+            <div class="author">Dr. Jhonny Quispe</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN MISIÓN Y VISIÓN -->
+    <section class="container" style="padding-top: 40px">
+      <h2 class="section-title">Misión y Visión</h2>
+      <div class="title-divider"></div>
+
+      <div class="mv-grid">
+        <div class="mv-card">
+          <div class="mv-header">
+            <div class="badge badge-m">M</div>
+            <h3>Misión</h3>
+          </div>
+          <p>
+            Lograr una excelente formación humana de calidad y calidez incluyendo en ellos la práctica de valores y desarrollo en el pensamiento crítico reflexivo e indagador de cambio que demanda la sociedad.
+          </p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-header">
+            <div class="badge badge-v">V</div>
+            <h3>Visión</h3>
+          </div>
+          <p>
+            Ser una institución académica e investigación de referencia nacional
+            en el ámbito de la educación estudiantil descentralizada, reconocidas
+            por su calidad educativa, pertinencia territorial, compromiso con la
+            investigación y activa contribución al desarrollo de la comunidad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS CON CARRUSEL -->
+    <section id="servicios">
+      <div class="container">
+        <div class="carousel-container">
+          <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+          <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-item">
+              <img
+                src="./img/palco.jpeg"
+                alt="Galeria 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/jardinPatio.jpeg"
+                alt="Galeria 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/frontisColegio.jpeg"
+                alt="Galeria 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/comedor.jpeg"
+                alt="Galeria 4"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/canchaPatioMontanias.jpeg"
+                alt="Galeria 5"
+              />
+            </div>
+          </div>
+        </div>
+
+        <h2 class="hero-title" style="font-size: 1.8rem">Servicios</h2>
+        <p
+          style="
+            color: var(--text-light);
+            max-width: 800px;
+            margin-bottom: 30px;
+          "
+        >
+          Al ser una unidad educativa de modalidad Plena/BTH (Bachillerato Técnico Humanístico), los estudiantes de secundaria egresan con el título de Bachiller Humanístico y simultáneamente con el título de <strong>Técnico Medio. </strong>Algunos de los servicios que proporcionan es:
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <img
+              src="./iconos/humanistico.png"
+              alt="humanistico"
+            />
+            <h4>Área Humanística</h4>
+            <p>
+              Cumple con la malla curricular oficial del Ministerio de Educación de Bolivia (Matemáticas, Lenguaje, Ciencias Naturales, Ciencias Sociales, Física, Química, etc.).
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="./iconos/futbol.png"
+              alt="futbol"
+            />
+            <h4>Escuela formativa de Fútbol y Futsal</h4>
+            <p>
+              En la Unidad Educativa 23 de Marzo, el deporte es el motor que une a la comunidad estudiantil, cultivando la disciplina, la salud y el compañerismo en cada cancha.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="./iconos/sistemas.png"
+              alt="sistemas"
+            />
+            <h4>Sistemas Informáticos</h4>
+            <p>
+              La formación abarca el soporte técnico de computadoras, fundamentos de redes de datos, introducción al desarrollo de software/programación, herramientas de ofimática avanzada.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="./iconos/biblioteca.png"
+              alt="Biblioteca"
+            />
+            <h4>Biblioteca digital y Recursos de estudio</h4>
+            <p>
+              Cuenta con colecciones de textos escolares oficiales, libros informativos, narrativos y argumentativos fundamentales para las materias del área humanística (como Comunicación y Lenguajes).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN LOCACION -->
+    <section id="sedes">
+      <div class="container sede-detail">
+        <div class="sede-info">
+          <h2>Locación de la Unidad Educativa</h2>
+          <p>
+            La Unidad Educativa Técnico Humanístico 23 de Marzo se localiza en la región del altiplano boliviano. Su ubicación geográfica y administrativa se detalla a continuación:
+          </p>
+
+          <div class="tags-list">
+            <div class="tag-item">Comunidad: San Martín de Iquiaca</div>
+            <div class="tag-item">Municipio: Patacamaya (forma parte del Cantón San Martín de Iquiaca)</div>
+            <div class="tag-item">Departamento: La Paz, Bolivia</div>
+          </div>
+
+          <div class="stats-container">
+            <div>
+              <div class="stat-number">105</div>
+              <div class="stat-label">Estudiantes matriculados</div>
+            </div>
+            <div>
+              <div class="stat-number">9</div>
+              <div class="stat-label">Profesores</div>
+            </div>
+          </div>
+        </div>
+        <div class="image-hover-wrapper">
+          <img
+            src="./img/auditorio.jpeg"
+            alt="Inauguración Azangaro"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN ESCUELAS PROFESIONALES -->
+    <section id="escuelas" class="container" style="padding-top: 50px">
+      <h2 class="section-title" style="text-align: left">
+        Materias destacadas
+      </h2>
+      <p style="color: var(--text-light)">
+        Algunas materias mas destacadas de esta unidad educativa son
+      </p>
+
+      <div class="cards-grid">
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img
+              src="./img/aulaTallerSistemasInformaticos.jpeg"
+              alt="sistemas informaticos"
+            />
+          </div>
+          <div class="card-body">
+            <h4>Sistemas Informáticos</h4>
+            <p>
+              Esta materia Técnica se distribuye de forma progresiva entre 4to y 6to de secundaria, enfocándose en hardware, software, programación y redes.
+            </p>
+            <button class="btn-card" onclick="openPlanModal('sistemas')">
+              Plan de Estudios
+            </button>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img src="./img/aulaDosPisos.jpeg" alt="matematicas" />
+          </div>
+          <div class="card-body">
+            <h4>Matemática</h4>
+            <p>
+              Abarca el desarrollo del pensamiento lógico, integrando la aritmética, el álgebra, la trigonometría analítica y el cálculo elemental aplicados a contextos socioproductivos.
+            </p>
+            <button class="btn-card" onclick="openPlanModal('matematicas')">
+              Plan de Estudios
+            </button>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img
+              src="./img/comedor.jpeg"
+              alt="fisica"
+            />
+          </div>
+          <div class="card-body">
+            <h4>Física</h4>
+            <p>
+              Estudia las leyes del universo y los fenómenos de la naturaleza desde una perspectiva científica y experimental, vinculada estrechamente al entorno tecnológico.
+            </p>
+            <button class="btn-card" onclick="openPlanModal('fisica')">
+              Plan de Estudios
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN NOTICIAS -->
+    <section id="noticias" class="container" style="padding-top: 60px">
+      <h2 class="hero-title" style="font-size: 2rem">Noticias</h2>
+
+      <div class="cards-grid">
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img src="./img/entregaDeAulas.png" alt="Noticia 1" />
+          </div>
+          <div class="card-body">
+            <h4>ENTREGA DE NUEVAS AULAS DE ESTUDIO</h4>
+            <p>
+              Las autoridades municipales realizaron la entrega oficial de cuatro nuevos ambientes escolares para el beneficio de los estudiantes de la unidad educativa en el área rural de Iquiaca.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img src="./img/canchaPatioMontanias2.jpeg" alt="Noticia 2" />
+          </div>
+          <div class="card-body">
+            <h4>
+              COMPROMISO PARA UN NUEVO TINGLADO
+            </h4>
+            <p>
+              El gobierno local asumió el compromiso formal para gestionar e iniciar el proyecto de construcción de un tinglado e infraestructura complementaria para la institucion.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <div class="card-img-wrapper">
+            <img src="./img/aulaTallerSistemasInformaticos.jpeg" alt="Noticia 3" />
+          </div>
+          <div class="card-body">
+            <h4>RATIFICACIÓN NACIONAL DE LAS ESPECIALIDADES TÉCNICAS</h4>
+            <p>
+              Ante rumores y reclamos en el sector educativo sobre un posible recorte al modelo BTH, el Ministerio de Educación emitió un comunicado oficial que garantiza la continuidad total del Bachillerato Técnico Humanistico.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENTANA MODAL PARA PLANES DE ESTUDIO -->
+    <div class="modal-overlay" id="planModal">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 id="modalTitle">Plan de Estudios</h3>
+          <button class="close-modal" onclick="closePlanModal()">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body" id="modalContent">
+          <!-- El contenido se inyecta dinámicamente con JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <img
+              src="./img/escudoUnidadEducativaSanMartinIquiaca.jpeg"
+              alt="Logo Footer"
+              style="margin-bottom: 15px"
+              width="100"
+            />
+            <p style="font-size: 0.85rem">
+              Unidad Educativa Técnico Humanistico <br> 23 de Marzo de San Martín Iquiaca.<br />Comprometidos con la
+              excelencia académica y el desarrollo regional.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h5>Contacto</h5>
+            <p style="font-size: 0.85rem; margin-bottom: 8px">
+              📍 Sede Central: Ruta nacional 1, Provincia Aroma La Paz - Bolivia
+            </p>
+            <p style="font-size: 0.85rem">
+              📞 Central Telefónica: (591) 777222234
+            </p>
+          </div>
+          <div class="footer-col">
+            <h5>Enlaces de Interés</h5>
+            <ul>
+              <li><a href="#">Admisión</a></li>
+              <li><a href="#">Página Principal Unidad Educativa Técnico Humanistico 23 de Marzo de San Martín Iquiaca</a></li>
+              <li><a href="#">Provincia Aroma - La Paz - Bolivia</a></li>
+              <li><a href="#">Transparencia</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Síguenos</h5>
+            <a href="#" class="social-icon">f</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            © 2026 -
+            <a href="#"
+              >Unidad Educativa Técnico Humanístico 23 de Marzo de San Martín Iquiaca -  Provincia Aroma</a
+            >. Todos los derechos reservados.
+          </div>
+          <div><a href="#inicio">Volver Arriba ↑</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
